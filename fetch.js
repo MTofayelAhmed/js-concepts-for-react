@@ -54,3 +54,9 @@ const newItem = {name: "webCam", price: 2000, brand: "F", color: "red"}
 const newProduct = [...products, newItem]
 
 
+console.log(newProduct)
+
+// how to remove a item from an array of objects
+
+const productRemove = products.filter(p=> p.brand !== "HP" )
+console.log(productRemove)
