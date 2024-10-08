@@ -10,7 +10,12 @@ console.log(`my name is ${student.name} and my number is ${numbers[2]}`);
 
 // 2.arrow function
 const basic = () => 55;
+console.log("BASIC",basic)
+console.log("PROBASIC", basic())
 const addSixtyFive = (number) => number + 65;
+
+
+
 const add = (a, b, c) => a + b + c;
 
 const isEven = (x) => x % 2 == 0;

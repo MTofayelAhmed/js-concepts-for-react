@@ -16,8 +16,16 @@ if (fatherName === "arnold" || season === "winter") {
 // 3. array example
 // array declare, index, length, push concepts
 const numbers = [23, 22, 25, 29];
-numbers[0] = 12;
 
+
+// numbers[0] = 12;
+
+
+const newNumbers = [...numbers]
+newNumbers[0]= 12 
+console.log(numbers);
+
+console.log("newNumber",newNumbers)
 // for loop example
 
 for (let i = 0; i < numbers.length; i++) {
@@ -27,24 +35,24 @@ for (let i = 0; i < numbers.length; i++) {
 
 // 5. function
 
-function addNumbers(num1, num2) {
-  const add = num1 + num2;
-  return add;
-}
+// function addNumbers(num1, num2) {
+//   const add = num1 + num2;
+//   return add;
+// }
 
-const output = addNumbers(1, 2)
+// const output = addNumbers(1, 2)
 
 
-// 6. object declaration 
+// // 6. object declaration 
 
-const student = {
-    name: "John", 
-    age: 25,
-    grade: "A"
-}
+// const student = {
+//     name: "John", 
+//     age: 25,
+//     grade: "A"
+// }
 
 // 3 ways to access property 
-console.log(student.name)
+// console.log(student.name)
 // console.log(student["age"]) access by property string 
 
 const myVariable = "age"

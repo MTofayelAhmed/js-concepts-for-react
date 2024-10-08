@@ -2,7 +2,11 @@
 const student = {
     name: "John", 
     age: 25,
-    grade: "A"
+    grade: "A",
+    subject: {
+         subjectName: "Math",
+         teacher: "Mr. Math"
+    }
 }
 
 const studentJSON = JSON.stringify(student)
@@ -19,7 +23,7 @@ console.log(studentObject)
 
 // how to make a array of keys of a object 
 const studentKeys = Object.keys(student)
-console.log(studentKeys)
+console.log("Identified",studentKeys)
 
 // values(how to get an array of values from an object)
 
