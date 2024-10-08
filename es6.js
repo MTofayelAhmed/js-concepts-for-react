@@ -19,14 +19,14 @@ const complexArrow = (a, b, c) => {
   return sum;
 };
 
-// 3. spread operator 
+// 3. spread operator
 
-const newNumber = [...numbers] ;
+const newNumber = [...numbers];
 
-numbers.push(99)
-numbers.push(99)
-numbers.push(99)
-console.log(newNumber)
-console.log(numbers)
-
-
+numbers.push(99);
+numbers.push(99);
+numbers.push(99);
+console.log(newNumber);
+console.log(numbers);
+// so when you want to create an array from another array and try
+// to separate them , use spread operator when copying the array , otherwise they will be interlink
