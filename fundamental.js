@@ -47,5 +47,5 @@ const student = {
 console.log(student.name)
 // console.log(student["age"]) access by property string 
 
-const myVariable = age
+const myVariable = "age"
 // console.log(student[myVariable]) access by property name in a variable
