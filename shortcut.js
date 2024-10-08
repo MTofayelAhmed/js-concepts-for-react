@@ -29,9 +29,24 @@ const inputNum = +input
 console.log(inputNum)
 
 
-const isActive = true ;
+let isActive = true ;
 
 const display = ()=> console.log("DisplayUser")
 const hide = ()=> console.log("HideUser")
     
-isActive ? display(): hide()
+// isActive ? display(): hide()
+
+// if the left side is true then the right sight will be executed 
+isActive && display()
+
+// use || if the left side is false then the right side will be executed 
+isActive || hide()
+    // or operator
+console.log(10 || 20) // 10
+console.log(0 || 20) // 20
+console.log(undefined || 20) // 20
+console.log(null || 20) // 20
+
+
+// toggle boolean concept
+isActive = !isActive
